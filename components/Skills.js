@@ -10,29 +10,29 @@ export default class Skills extends React.Component {
             {
                 name: 'Front-ends',
                 list: [
+                    { name: 'bootstrap', color: '#8b57d9', value: '80' },
+                    { name: 'javascript', color: '#f7df1e', value: '80' },
                     { name: 'html5', color: '#f16529', value: '75' },
                     { name: 'css3', color: '#29a9df', value: '70' },
-                    { name: 'bootstrap', color: '#8b57d9', value: '80' },                
-                    { name: 'javascript', color: '#f7df1e', value: '70' }
                 ]
             },
             {
                 name: 'Back-ends',
                 list: [
-                    { name: 'nodejs', color: '#81ca2a', value: '70' },
+                    { name: 'nodejs', color: '#81ca2a', value: '80' },
+                    { name: 'go', color: '#00AED8', value: '70' },
+                    { name: 'python', color: '#ffd43b', value: '60' },
                     { name: 'java', color: '#1e77b7', value: '40' },
-                    { name: 'python', color: '#ffd43b', value: '60' }
                 ]
             },
             {
                 name: 'Tools',
                 list: [
-                    { name: 'git', color: '#F05032', value: '90' },
+                    { name: 'docker', color: '#18bbb0', value: '95' },
+                    { name: 'git', color: '#F05032', value: '95' },
+                    { name: 'kubernetes', color: '#d33833', value: '90' },
                     { name: 'terraform', color: '#5f43e9', value: '90'},
                     { name: 'ansible', color: 'black', value: '90'},
-                    { name: 'npm', color: '#cb3736', value: '70' },
-                    { name: 'docker', color: '#18bbb0', value: '95' }
-
                 ]
             } 
         ]
@@ -45,20 +45,20 @@ export default class Skills extends React.Component {
                 <br />
                 <div className="columns" >
                     <div className="column detail is-10 is-offset-1 is-6-desktop is-offset-3-desktop is-10-mobile is-offset-1-mobile">
-                        Mon expérience de 2 ans en tant que DevOps m'a permis de développer beaucoup de compètences, j'ai utilisé des outils de virtualisation et d'orchestration tels que <i>Docker</i>,<i>Kubernetes</i> et <i>ECS (AWS)</i>.
-                        J'ai développé un outils en <i>GO</i> et des <i>scripts shell</i>, dans le but d'automatiser un maximum de choses. Tout ceci intégré à une chaînes d’intégration continue <i>Jenkins</i>.
+                        Mon expérience en tant que DevOps m'a permis de développer beaucoup de compètences, j'ai utilisé des outils de virtualisation et d'orchestration tels que <i>Docker</i>,<i>Kubernetes</i> et <i>ECS (AWS)</i>.
+                        J'ai développé un outils en <i>GO</i> et des <i>scripts shell</i>, dans le but d'automatiser un maximum de choses. Tout ceci intégré à une chaînes d’intégration continue comme <i>Jenkins</i>.
                         <br/>
                         <br/>
                         Je suis agile sur toute les plateformes cloud comme <i>AWS, Azure, GCP </i> et autres mais également sur des plateformes On-Premises grâce au outils d'infrastructure as code (IAS) comme <i>Terraform</i> et <i>Ansible</i>.
                         <br/>
                         <br/>
-                        Je suis également trés à l'aise avec les différents systèmes d'exploitation, <i>Windows, Linux, etc..</i>
+                        Je suis également trés à l'aise avec les différents systèmes d'exploitation, <i>Windows, Linux, MacOS, etc..</i>
                         <br/>
                         <br/>
                         La sécurité informatique est quelque chose de très important pour moi, je fais de la veille technologique afin d'être toujours à jours sur les actualités.
                         <br/>
                         <br/>
-                        Je suis quelqu'un qui adore apprendre de nouvelle chose, ce site réalisé par mes soins reflète mon envie d'apprendre de nouvelle technologie, dans ce cas <i>NextJS</i>.
+                        Je suis quelqu'un qui adore apprendre de nouvelle chose, ce site réalisé par mes soins reflète mon envie d'apprendre de nouvelle technologie.
                     </div>
                 </div>
                 <div id='detail'>Professionnel</div>
@@ -84,7 +84,7 @@ export default class Skills extends React.Component {
                 <div className="columns">
                     <div className="column">
                         <br/>
-                        <Button title="Mon GitHub" url="https://github.com/Soxiis" />
+                        <Button title="Mon GitHub" url="https://github.com/ThibaultSaillan" />
                     </div>
                 </div>
                 

@@ -8,7 +8,7 @@ const cursor = {
 export default ({color}) => (
     <div className="is-flex-mobile">
         <Typist cursor={cursor}>
-            <span>Thibault </span> <br />Saillan-Loubere<br /> 24 Ans - DevOps
+            <span>Thibault </span> <br />Saillan-Loubere<br /> 26 Ans - DevOps
         </Typist>
         <style jsx>{`
             div { 
