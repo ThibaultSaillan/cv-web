@@ -84,7 +84,7 @@ export default class ExperiencesTimelineItem extends React.Component {
                         z-index: 99;
                     }
                     .arrow {
-                        position absolute;
+                        position: absolute;
                         width: 0;
                         height: 0;
                         border-top: 10px solid transparent;
@@ -94,10 +94,18 @@ export default class ExperiencesTimelineItem extends React.Component {
                     .arrow-left {
                         border-right: 20px solid ${color};
                         left: 14px;
+                        //transform: translateX(-50%); 
+                        //transform: translateY(150%); 
                     }
                     .arrow-right {
                         border-left: 20px solid ${color};
                         right: 14px;
+                        //transform: translateX(2200%); 
+                        //transform: translateY(150%); 
+                        //right: 150%; 
+                        //transform: translateX(2200%);
+                        
+                        //transform: translateY(-250%); 
                     }
                     @media screen and (max-width: 769px) {
                         .timeline .left {

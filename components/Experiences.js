@@ -9,7 +9,19 @@ export default class Experiences extends React.Component {
             <section className="hero wrapper has-text-centered">
                 <Title title="💼 - Experiences" color='#bf3a2a'/>
                 <div className="container">
-                    <Timeline side="right" time="Septembre 2020 - Aujourd'hui" color="#E95251">
+                    <Timeline side="right" time="Juillet 2023 - Aujourd'hui" color="#E95251">
+                        <h4 style={{'color': '#E95251'}}>Simplifield</h4>
+                        <p>
+                            <i className="position">Chapter lead - Ingénieurs DevOps</i><br/>
+                            <ul>
+                                <li>Gestion de projet</li>
+                                <li>Planification stratégique</li>
+                                <li>Amélioration des processus DevOps</li>
+                                <li>Collaboration avec les autres équipes pour assurer une intégration fluide des pratiques</li>
+                            </ul>
+                        </p>
+                    </Timeline>
+                    <Timeline side="right" time="Septembre 2022 - Juillet 2023" color="#E95251">
                         <h4 style={{'color': '#E95251'}}>Simplifield</h4>
                         <p>
                             <i className="position">Ingénieurs DevOps</i><br/>

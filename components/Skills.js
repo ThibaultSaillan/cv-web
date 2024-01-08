@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from './Title'
 import Group from './SkillItemGroup'
-import circle from './../static/css/circle.css'
+import circle from '../static/css/circle.css'
 import Button from './HeaderButton'
 
 export default class Skills extends React.Component {
@@ -45,31 +45,30 @@ export default class Skills extends React.Component {
                 <br />
                 <div className="columns" >
                     <div className="column detail is-10 is-offset-1 is-6-desktop is-offset-3-desktop is-10-mobile is-offset-1-mobile">
-                        Mon expérience en tant que DevOps m'a permis de développer beaucoup de compètences, j'ai utilisé des outils de virtualisation et d'orchestration tels que <i>Docker</i>,<i>Kubernetes</i> et <i>ECS (AWS)</i>.
-                        J'ai développé un outils en <i>GO</i> et des <i>scripts shell</i>, dans le but d'automatiser un maximum de choses. Tout ceci intégré à une chaînes d’intégration continue comme <i>Jenkins</i>.
+                        Au cours de mon parcours en tant que DevOps, j'ai acquis une expertise approfondie en utilisant une gamme variée d'outils. J'ai travaillé avec des outils de virtualisation et d'orchestration comme <i>Docker</i>, <i>Kubernetes</i>, et <i>ECS (AWS)</i>. J'ai également développé des outils en <i>GO</i> et écrit des <i>scripts shell</i> pour maximiser l'automatisation des processus. Ces compétences sont intégrées dans des systèmes d’intégration continue tels que <i>Jenkins</i>, <i>CircleCI</i>, <i>GitHub Action</i>, et <i>ArgoCD</i>.
                         <br/>
                         <br/>
-                        Je suis agile sur toute les plateformes cloud comme <i>AWS, Azure, GCP </i> et autres mais également sur des plateformes On-Premises grâce au outils d'infrastructure as code (IAS) comme <i>Terraform</i> et <i>Ansible</i>.
+                        Je possède une solide expérience sur diverses plateformes cloud, y compris <i>AWS</i> et <i>GCP</i>, ainsi que sur des infrastructures On-Premises, grâce à ma maîtrise des outils d'Infrastructure as Code (IaC) tels que <i>Terraform/Terragrunt</i> et <i>Ansible</i>.
                         <br/>
                         <br/>
-                        Je suis également trés à l'aise avec les différents systèmes d'exploitation, <i>Windows, Linux, MacOS, etc..</i>
+                        Mon aisance avec différents systèmes d'exploitation, incluant <i>Windows, Linux,</i> et <i>MacOS</i>, s'accompagne d'une compétence en sécurité informatique, domaine dans lequel je réalise une veille technologique continue pour rester à jour.
                         <br/>
                         <br/>
-                        La sécurité informatique est quelque chose de très important pour moi, je fais de la veille technologique afin d'être toujours à jours sur les actualités.
-                        <br/>
-                        <br/>
-                        Je suis quelqu'un qui adore apprendre de nouvelle chose, ce site réalisé par mes soins reflète mon envie d'apprendre de nouvelle technologie.
+                        Passionné d'apprentissage, je suis toujours désireux d'explorer et de maîtriser de nouvelles technologies.
                     </div>
+
                 </div>
                 <div id='detail'>Professionnel</div>
                 <br />
-                <div className="columns" >
-                    <div className="column detail is-10 is-offset-1 is-6-desktop is-offset-3-desktop is-10-mobile is-offset-1-mobile">
+                <div className="columns">
+                    <div className="column detail is-10 is-offset-1 is-6-desktop is-offset-3-desktop is-10-mobile is-offset-1-mobile" style={{ textAlign: 'justify' }}>
                         <ul>
-                            <li>Anglais : Lu, écrit et parlé</li>
-                            <li>Travail en équipe</li>
-                            <li>Gestion des projets</li>
-                            <li>Rigoureux</li>
+                            <li>Maîtrise de l'Anglais : Capacité à lire, écrire et parler couramment</li>
+                            <li>Travail d'équipe : Collaboration efficace, communication et partage des connaissances</li>
+                            <li>Gestion de projets : Planification stratégique, gestion des délais et coordination d'équipe</li>
+                            <li>Rigueur et Précision : Attention aux détails et engagement envers la qualité</li>
+                            <li>Adaptabilité : Flexibilité face aux changements et capacité à apprendre rapidement</li>
+                            <li>Résolution de problèmes : Analyse critique et approche créative pour résoudre des défis complexes</li>
                         </ul>
                     </div>
                 </div>
@@ -89,31 +88,41 @@ export default class Skills extends React.Component {
                 </div>
                 
                 <style jsx>{`
-                    ul {
-                        text-align: center;
-                    }
-                    #detail{
-                        color: #ffffff;
-                        font-weight: bold;
-                    }
-                    .detail {
-                        color: #ffffff;
-                        text-align: justify;
-                    }
-                    .wrapper {
-                        padding-top: 50px;
-                        padding-bottom: 50px;
-                        background: #2f353f;
-                        background-size: cover;
-                        color: #333333;
-                        font-size: 1.3em;
-                    }
-                    .detail > b {
-                        color: #F1A9A0;
-                    }
-                    .detail > i {
-                        color: #00E640;
-                    }
+                  ul {
+                    text-align: justify;
+                  }
+
+                  #detail {
+                    color: #ffffff;
+                    font-weight: bold;
+                  }
+
+                  .detail {
+                    color: #ffffff;
+                    text-align: justify;
+                  }
+
+                  .wrapper {
+                    padding-top: 50px;
+                    padding-bottom: 50px;
+                    background: #2f353f;
+                    background-size: cover;
+                    color: #333333;
+                    font-size: 1.3em;
+                  }
+
+                  .detail > b {
+                    color: #F1A9A0;
+                  }
+
+                  .detail > i {
+                    color: #00E640;
+                  }
+
+                  . detail > o {
+                    text-decoration: underline;
+                    text-decoration-color: #ffffff;
+                  }
                 `}</style>
             </section>
         )

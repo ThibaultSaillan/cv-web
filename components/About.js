@@ -30,9 +30,9 @@ export default class About extends React.Component {
                         Passionné d’informatique depuis l’enfance, je suis quelqu'un <b>d'autonome et curieux</b>,
                         j’ai l’ambition de participer au développement technologique de notre société.<br/>
                         <br/>
-                        Je possède des compétences sur les différents outils liés au métier de DevOps, tel que la mise en place d'une architecture sur une fournisseur de service cloud <i>(AWS, GCP, OVH)</i> dans un environnement de production par le biais d'outils d'Infrastructure As Code comme <i>Terraform</i>, le déploiement d'outils d'intégration et de livraison continu <i>Jenkins, Ansible</i> et la containerisation avec <i>Docker</i>.<br/>
+                        Doté d'une expertise en DevOps, je suis en mesure de déployer des architectures hautement disponibles, résilientes et évolutives, en me servant d'outils d'Infrastructure as Code pour des prestataires de services cloud. Ma maîtrise des outils d'intégration continue et de livraison continue (CI/CD) renforce ma capacité à maintenir des environnements de production robustes.<br/>
                         <br/>
-                        Mes études, stages et parcours en alternance m'ont permis d'acquérir une expérience dans le domaine des réseaux, des télécommunications et le développement, me permettant une polyvalence à tout types de situation.
+                        Mon parcours académique et professionnel, comprenant des études, stages et alternance, m'a équipé d'une expérience solide dans les domaines des réseaux, des télécommunications et du développement, ce qui me confère une grande adaptabilité face à diverses situations techniques.
                     </div>
                 </div>
                 <Interersts />

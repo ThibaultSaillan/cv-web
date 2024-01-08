@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build && next export",
+    "now-build": "next build",
     "export": "next export .",
     "start": "next start -p 3030",
     "analyze": "cross-env ANALYZE=1 next build"
@@ -15,18 +16,22 @@
     "NextJS"
   ],
   "dependencies": {
-    "autoprefixer": "^7.1.5",
+    "autoprefixer": "^10.4.16",
+    "babel-core": "^6.26.3",
     "babel-loader": "^7.1.2",
     "glob": "^7.1.2",
-    "next": "^4.0.1",
+    "next": "^14.0.4",
     "path": "^0.12.7",
-    "postcss-easy-import": "^3.0.0",
-    "postcss-loader": "^2.0.8",
+    "postcss-easy-import": "^4.0.0",
+    "postcss-loader": "^7.3.4",
     "raw-loader": "^0.5.1",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-particles-js": "^2.0.0",
     "react-typist": "^1.1.1",
-    "webpack-bundle-analyzer": "^2.9.0"
+    "webpack-bundle-analyzer": "^4.10.1"
+  },
+  "devDependencies": {
+    "emit-file-loader": "^0.0.2"
   }
 }
